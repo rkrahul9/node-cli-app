@@ -1,0 +1,36 @@
+{
+  "name": "@custom_cli/challenge-one",
+  "version": "1.0.0",
+  "description": "Simple Node developer challenge.",
+  "main": "src/index.js",
+  "bin": {
+    "@custom_cli/challenge-one": "bin/store",
+    "store": "bin/store"
+  },
+  "publishedConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankush86/challenge-one.git"
+  },
+  "keywords": [
+    "cli",
+    "store"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankush86/challenge-one/issues"
+  },
+  "homepage": "https://github.com/ankush86/challenge-one#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "esm": "^3.2.25",
+    "mongoose": "^5.7.12"
+  }
+}
